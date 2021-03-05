@@ -1,0 +1,51 @@
+{
+  "name": "react-todo-clean-architecture",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "recoil": "^0.1.2",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "checking": "yarn run prettier --write src/**/*.{js,ts,jsx,tsx} && eslint src/**/*.{js,ts,jsx,tsx} --fix",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-preset-jest": "^26.6.2",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.5",
+    "source-map-loader": "^1.1.2"
+  }
+}
